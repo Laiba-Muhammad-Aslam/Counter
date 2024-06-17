@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1.6rem;
+    scroll-behavior: smooth;
+}
+.main {
+    background-image: url("assests/img1.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    border: 0.5rem solid rgb(17, 48, 161);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.box > h1 {
+    color: black;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-box {
+    width: 7rem;
+    text-align: center;
+}
+
+.counter-box .label {
+    font-size: 1rem;
+    color: rgb(17, 48, 161);
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.counter-box .value {
+    border: 0.5rem solid white;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
